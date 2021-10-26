@@ -9,7 +9,7 @@ if (mapboxgl) {
         }
 
         const map = new mapboxgl.Map({
-            container: 'my-map',
+            container: 'MapaRegion',
             style: 'mapbox://styles/mapbox/streets-v11',
             center: [-70.6145295, -32.83204],
             zoom: 7

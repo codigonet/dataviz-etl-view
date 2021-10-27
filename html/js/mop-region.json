@@ -1,0 +1,57 @@
+{
+    "VALPARAISO": {
+        "COMUNA": "VALPARAISO",
+        "DATA": {
+            "COMUNA": "VALPARAISO",
+            "PRESUPUESTO DECRETADO(M$)": 27185408,
+            "GASTO (M$)": 12574318.770999998,
+            "SALDO (M$)": 14611089.229000002,
+            "GEO_LAT": -33.0438639,
+            "GEO_LON": -71.6023175
+        }
+    },
+    "PETORCA": {
+        "COMUNA": "PETORCA",
+        "DATA": {
+            "COMUNA": "PETORCA",
+            "PRESUPUESTO DECRETADO(M$)": 2804600,
+            "GASTO (M$)": 1150350.1330000001,
+            "SALDO (M$)": 1654249.8669999999,
+            "GEO_LAT": -32.25123,
+            "GEO_LON": -70.9408742
+        }
+    },
+    "LA LIGUA": {
+        "COMUNA": "LA LIGUA",
+        "DATA": {
+            "COMUNA": "LA LIGUA",
+            "PRESUPUESTO DECRETADO(M$)": 3794068,
+            "GASTO (M$)": 511804.845,
+            "SALDO (M$)": 3282263.155,
+            "GEO_LAT": -32.4501874,
+            "GEO_LON": -71.2418708
+        }
+    },
+    "LOS ANDES": {
+        "COMUNA": "LOS ANDES",
+        "DATA": {
+            "COMUNA": "LOS ANDES",
+            "PRESUPUESTO DECRETADO(M$)": 5308937,
+            "GASTO (M$)": 3654830.733,
+            "SALDO (M$)": 1654106.267,
+            "GEO_LAT": -32.83204,
+            "GEO_LON": -70.6145295
+        }
+    },
+    "QUILLOTA": {
+        "COMUNA": "QUILLOTA",
+        "DATA": {
+            "COMUNA": "QUILLOTA",
+            "PRESUPUESTO DECRETADO(M$)": 4654921,
+            "GASTO (M$)": 1176042.973,
+            "SALDO (M$)": 3478878.0270000002,
+            "GEO_LAT": -33.0156341,
+            "GEO_LON": -71.5468906
+        }
+    }
+}

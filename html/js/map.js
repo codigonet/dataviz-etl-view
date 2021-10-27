@@ -2,18 +2,20 @@ if (mapboxgl) {
     const MAPBOX_KEY = "pk.eyJ1IjoiY29kaWdvbmV0IiwiYSI6ImNrdjhqajhxNDI1MHEyeGwwYTU3b2NjdXEifQ.CYSagmmBL2RYaQjOpSm4Zg";
     mapboxgl.accessToken = MAPBOX_KEY;
 
+    // Se define constante GLOBAL con referencia al Mapa
+    const map = new mapboxgl.Map({
+        container: 'MapaRegion',
+        style: 'mapbox://styles/mapbox/streets-v11',
+        center: [-70.6145295, -32.83204],
+        zoom: 7
+    });
+
     Plotly.d3.json("js/mop-region.json", function (err, json_data) {
         if (err) {
             console.log("Error al leer JSON", err);
             return;
         }
 
-        const map = new mapboxgl.Map({
-            container: 'MapaRegion',
-            style: 'mapbox://styles/mapbox/streets-v11',
-            center: [-70.6145295, -32.83204],
-            zoom: 7
-        });
 
         console.log("JSON", json_data);
 

@@ -1,5 +1,5 @@
 if (mapboxgl) {
-    const MAPBOX_KEY = "pk.eyJ1IjoiY29kaWdvbmV0IiwiYSI6ImNrdjhqajhxNDI1MHEyeGwwYTU3b2NjdXEifQ.CYSagmmBL2RYaQjOpSm4Zg";
+    const MAPBOX_KEY = "pk.---"; // Se debe obtener un Token desde Mapbox
     mapboxgl.accessToken = MAPBOX_KEY;
 
     // Se define constante GLOBAL con referencia al Mapa

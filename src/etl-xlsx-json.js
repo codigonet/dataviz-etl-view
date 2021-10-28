@@ -85,6 +85,6 @@ log("Data de Salida", output_data);
 Generar archivo JSON
 */
 // Definir archivo de salida (JSON)
-const json_file = path.resolve("html/js/mop-region.json");
+const json_file = path.resolve("docs/js/mop-region.json");
 // Guardar en JSON los datos transformados 
 fs.writeFileSync(json_file, JSON.stringify(output_data));

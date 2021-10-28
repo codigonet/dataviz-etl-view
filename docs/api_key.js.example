@@ -1,0 +1,2 @@
+const AUTH_KEY = "";
+exports.API_KEY = `?auth_key=${AUTH_KEY}`;

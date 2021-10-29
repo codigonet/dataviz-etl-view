@@ -5,7 +5,8 @@
   "main": "src/index.js",
   "scripts": {
     "start": "http-server docs/",
-    "etl:json": "node src/etl-xlsx-json.js"
+    "etl:json": "node src/etl-xlsx-json.js",
+    "etl:api": "node src/etl-api-json.js"
   },
   "keywords": [
     "ETL",

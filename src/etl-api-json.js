@@ -35,7 +35,7 @@ axios.get(API_URL_FILTERS + `&page=${PAGE}`)
         log("Data de Salida", output_data);
 
         // Definir archivo de salida (JSON)
-        const json_file = path.resolve("html/js/energia-region.json");
+        const json_file = path.resolve("docs/js/energia-region.json");
         // Guardar en JSON los datos transformados 
         fs.writeFileSync(json_file, JSON.stringify(output_data));
     }).catch(error => {

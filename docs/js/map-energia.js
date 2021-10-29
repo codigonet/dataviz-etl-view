@@ -1,6 +1,3 @@
-//const MAPBOX_KEY = "pk.eyJ1IjoiY29kaWdvbmV0IiwiYSI6ImNrdmJobnE1cThyd3Qybm9mZG1uNjY1aW4ifQ.zDYQmlCge-vpVSh8EeB2Yw"; // Se debe obtener un Token desde Mapbox
-//mapboxgl.accessToken = MAPBOX_KEY;
-
 var the_markers = [];
 
 // Se define constante GLOBAL con referencia al Mapa
